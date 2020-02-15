@@ -1,0 +1,67 @@
+body {
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+
+}
+
+.car {
+	width: 100%; 
+	text-align: center;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.car-img {
+	width: 50%;
+}
+
+.about-car {
+	opacity: 0;
+	width: 250px;
+	padding: 2rem;
+	font-size: 1.3rem;
+	color: white;
+	border-radius: 0.3rem;
+	background: linear-gradient(159deg, rgba(117,176,127,1) 0%, rgba(14,255,10,0.9640990185136554) 53%, rgba(26,230,60,0.9556956571691176) 100%);	position: absolute;
+	top: 0;
+	right: 0;
+	transition: all .2s;
+}
+
+.car-img:hover + .about-car{
+	opacity: 1;
+}
+
+/* ====================================== */
+
+.account {
+	position:fixed;
+	width: 200px;
+	height: 200px;
+	z-index: 200;
+	text-align: center;
+}
+
+.account img {
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+}
+
+.about {
+	text-align: center;
+	position: fixed;
+	top: 16%;
+	width: 220px;
+	font-family: arial;
+	color: white;
+	font-size: 1rem;	
+	line-height: 1.7;
+}
